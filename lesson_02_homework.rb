@@ -30,6 +30,6 @@ puts area_of_triangle(height, height)
 
 # Coding
 
-class Reservation
+class Waitlist
   # add your code here
 end
