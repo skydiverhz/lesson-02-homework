@@ -1,5 +1,5 @@
 # Code Reading
-
+# new comment
 # Add a comment (a line starting with # ) before each line explaining what it does. 
 # Add a comment before the method name explaining, in plain english, what the method does. 
 # Try copying and pasting this into a ruby file and modifying it to help you figure it out. 
