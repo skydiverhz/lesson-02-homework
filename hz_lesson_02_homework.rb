@@ -1,3 +1,4 @@
+
 # Code Reading
 # new comment
 # Add a comment (a line starting with # ) before each line explaining what it does. 
@@ -5,15 +6,13 @@
 # Try copying and pasting this into a ruby file and modifying it to help you figure it out. 
 # Try adding "puts" lines in at different places to see what happens.
 
-
-
 # method that prints the numbers from 1 to limit.
 # But for multiples of three prints 'Fizz' instead of the number
 # and for the multiples of five prints Buzz. 
 # For numbers which are multiples of both three and five it prints FizzBuzz
 
 
-                    # method name with one parameter
+                    # method name with 1 parameter
 def fizzbuzz(num)
                     # case is a structure used to test a sequence of conditions 
     case
@@ -90,7 +89,7 @@ class Waitlist
 
 # Adds a name to the array
   def add_party(name)
-    puts name
+    # puts name
     @list << name
   end
 
@@ -98,7 +97,7 @@ class Waitlist
 
   def list
     @list.map{|e| puts "#{e}"}
-      end
+  end
 
   def seat
     @list.delete_at(0)
