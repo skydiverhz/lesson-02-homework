@@ -89,8 +89,8 @@ class Waitlist
 
 # Adds a name to the array
   def add_party(name)
-    # puts name
-    @list << name
+        @list << name
+        return name
   end
 
 #Lists the names that are waiting
@@ -110,7 +110,7 @@ end
 waitlist = Waitlist.new
 puts "This is the current list"
 waitlist.list
-puts "This is the added name"
+puts Waitlist.new.add_party("people")
 waitlist.add_party('Sixth')
 puts "This is the new complete list"
 waitlist.list
